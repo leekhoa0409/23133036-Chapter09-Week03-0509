@@ -1,0 +1,144 @@
+/* ===== Welcome message (index.jsp) ===== */
+c\\:if {
+    display: block;
+    background: linear-gradient(135deg, #a7ffeb, #26a69a);
+    color: #004d40;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 1em 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin-bottom: 1.5em;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover nhẹ để nổi bật thêm */
+c\\:if:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}/* ===== Body & Typography ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    max-width: 700px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+    color: #00796b;
+    font-weight: 600;
+    margin-bottom: 1em;
+    text-align: center;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+
+/* ===== Paragraphs ===== */
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+/* ===== Welcome message (index.jsp) ===== */
+c\\:if {
+    display: block;
+    background-color: #e0f2f1;
+    padding: 0.75em 1em;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* ===== Album list links (index.jsp) ===== */
+p a {
+    display: block;
+    color: #00796b;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5em 0;
+    transition: color 0.3s, transform 0.2s;
+}
+p a:hover {
+    color: #004d40;
+    text-decoration: underline;
+    transform: translateX(5px);
+}
+
+/* ===== Form (register.jsp) ===== */
+form {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    margin-bottom: 2em;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="email"] {
+    width: calc(100% - 130px);
+    padding: 0.5em;
+    margin-bottom: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+/* ===== Submit button (register.jsp) ===== */
+input[type="submit"], button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+input[type="submit"]:hover, button:hover {
+    background-color: #004d40;
+    transform: translateY(-2px);
+}
+
+/* ===== Utility classes ===== */
+.pad_top { padding-top: 0.5em; }
+.margin_left { margin-left: 0.5em; }
+.align_left { text-align: left; }
+.align_right { text-align: right; }
+
+/* ===== Tables (dự phòng nếu có) ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 1em;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.75em;
+    text-align: left;
+}
+th {
+    background-color: #00796b;
+    color: #fff;
+}
+tr:nth-child(even) { background-color: #f2f2f2; }
+tr:hover { background-color: #e0f2f1; }
