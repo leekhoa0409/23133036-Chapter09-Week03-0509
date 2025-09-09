@@ -1,4 +1,23 @@
-/* ===== Body & Typography ===== */
+/* ===== Welcome message (index.jsp) ===== */
+c\\:if {
+    display: block;
+    background: linear-gradient(135deg, #a7ffeb, #26a69a);
+    color: #004d40;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 1em 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin-bottom: 1.5em;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover nhẹ để nổi bật thêm */
+c\\:if:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}/* ===== Body & Typography ===== */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
