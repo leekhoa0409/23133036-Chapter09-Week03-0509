@@ -9,7 +9,7 @@
 
 <h1>Downloads</h1>
 
-<h2>Paddlefoot - The Second CD</h2>
+<h2>K-391 Musics</h2>
     
 <table>
 <tr>
@@ -17,12 +17,12 @@
     <th>Audio Format</th>
 </tr>
 <tr>
-    <td>Neon Lights</td>
-    <td><a href="/musicStore/sound/${productCode}/neon.mp3">MP3</a></td>
+    <td>Sunshine</td>
+    <td><a href="https://drive.google.com/file/d/0B4RM9E8In1vFYWo0V3pZeV9KQ3c/view?usp=drive_link&resourcekey=0-ifp5bqFsgqaAG5G6Boa2PA">MP3</a></td>
 </tr>
 <tr>
-    <td>Tank Hill</td>
-    <td><a href="/musicStore/sound/${productCode}/tank.mp3">MP3</a></td>
+    <td>Summertime</td>
+    <td><a href="https://drive.google.com/file/d/0B4RM9E8In1vFazVtc0RNajdTdWc/view?usp=drive_link&resourcekey=0-NEA9YaWBZxDnJjFBWJeUPg">MP3</a></td>
 </tr>
 </table>
 

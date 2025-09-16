@@ -1,43 +1,31 @@
-/* ===== Welcome message (index.jsp) ===== */
-c\\:if {
-    display: block;
-    background: linear-gradient(135deg, #a7ffeb, #26a69a);
-    color: #004d40;
-    font-weight: 600;
-    font-size: 1.1em;
-    padding: 1em 1.5em;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    margin-bottom: 1.5em;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* ===== Reset nhẹ ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-/* Hover nhẹ để nổi bật thêm */
-c\\:if:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-}/* ===== Body & Typography ===== */
+/* ===== Body & Layout ===== */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-    background-color: #f5f5f5;
-    max-width: 700px;
+    background: linear-gradient(120deg, #f5f5f5, #e8fdf9);
+    max-width: 800px;
     margin: 2em auto;
-    padding: 0 1em;
+    padding: 1.5em;
 }
 
 /* ===== Headings ===== */
 h1, h2 {
-    color: #00796b;
+    color: #00695c;
     font-weight: 600;
     margin-bottom: 1em;
     text-align: center;
 }
 h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
+h2 { font-size: 1.4em; }
 
 /* ===== Paragraphs ===== */
 p {
@@ -46,33 +34,45 @@ p {
     color: #555;
 }
 
-/* ===== Welcome message (index.jsp) ===== */
+/* ===== Welcome / Thông báo ===== */
 c\\:if {
     display: block;
-    background-color: #e0f2f1;
-    padding: 0.75em 1em;
-    border-radius: 5px;
+    background: linear-gradient(135deg, #a7ffeb, #26a69a);
+    color: #004d40;
+    font-weight: 600;
+    font-size: 1.05em;
+    padding: 1em 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     margin-bottom: 1.5em;
     text-align: center;
-    font-weight: 500;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+c\\:if:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
 }
 
-/* ===== Album list links (index.jsp) ===== */
+/* ===== Album list links ===== */
 p a {
     display: block;
     color: #00796b;
     text-decoration: none;
     font-weight: 500;
-    padding: 0.5em 0;
-    transition: color 0.3s, transform 0.2s;
+    padding: 0.6em 0.8em;
+    margin: 0.3em 0;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    transition: all 0.25s ease;
 }
 p a:hover {
-    color: #004d40;
-    text-decoration: underline;
+    color: #ffffff;
+    background-color: #00796b;
     transform: translateX(5px);
 }
 
-/* ===== Form (register.jsp) ===== */
+/* ===== Form ===== */
 form {
     background-color: #fff;
     padding: 1.5em;
@@ -80,37 +80,36 @@ form {
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
     margin-bottom: 2em;
 }
-
 label {
     display: inline-block;
     width: 120px;
     font-weight: 600;
     margin-bottom: 0.5em;
 }
-
 input[type="text"], input[type="email"] {
     width: calc(100% - 130px);
     padding: 0.5em;
     margin-bottom: 0.75em;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: border 0.3s ease;
+    border-radius: 6px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
 }
-
 input[type="text"]:focus,
 input[type="email"]:focus {
     border-color: #00796b;
+    box-shadow: 0 0 5px rgba(0,121,107,0.4);
     outline: none;
 }
 
-/* ===== Submit button (register.jsp) ===== */
+/* ===== Buttons ===== */
 input[type="submit"], button {
     background-color: #00796b;
     color: white;
     border: none;
-    padding: 0.5em 1em;
-    border-radius: 5px;
+    padding: 0.6em 1.2em;
+    border-radius: 6px;
     cursor: pointer;
+    font-weight: 500;
     transition: background 0.3s ease, transform 0.2s;
 }
 input[type="submit"]:hover, button:hover {
@@ -118,13 +117,7 @@ input[type="submit"]:hover, button:hover {
     transform: translateY(-2px);
 }
 
-/* ===== Utility classes ===== */
-.pad_top { padding-top: 0.5em; }
-.margin_left { margin-left: 0.5em; }
-.align_left { text-align: left; }
-.align_right { text-align: right; }
-
-/* ===== Tables (dự phòng nếu có) ===== */
+/* ===== Table ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -140,5 +133,5 @@ th {
     background-color: #00796b;
     color: #fff;
 }
-tr:nth-child(even) { background-color: #f2f2f2; }
+tr:nth-child(even) { background-color: #f9f9f9; }
 tr:hover { background-color: #e0f2f1; }
